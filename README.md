@@ -43,6 +43,16 @@ Comparando cadenas...
 Diferencia en posición 9: A != C
 Diferencia en posición 50: T != G 
 Hay 2 diferencias
-   
+```
+
+
+## Referencias
+
+- Secuencias obtenidas de [NCBI GenBank](https://www.ncbi.nlm.nih.gov/genbank/):
+  - *Homo sapiens*: [NM_000518](https://www.ncbi.nlm.nih.gov/nuccore/NM_000518)
+  - *Pan troglodytes*: [XM_508242](https://www.ncbi.nlm.nih.gov/nuccore/XM_508242)
+- Herramientas adicionales:
+  - [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) para validar alineamientos.
+
 
 
