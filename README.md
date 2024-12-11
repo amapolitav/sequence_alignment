@@ -33,18 +33,18 @@ El script realiza los siguientes pasos:
 ## Ejemplo de salida
 
 Si las secuencias tienen diferencias, el programa imprimirá algo como esto:
-```Contenido de NM_000518.fasta (Homo sapiens): ATGGTGCATCTGACTCCTGAGGAGAAGTCTGCCGTTACTGCCCTGTGGGGCAAGGTGAACGTGGATGAAGTTGGTGGTGAGGCCCTGGGCAG
+```Contenido de NM_000518.fasta (Homo sapiens): ATGGTGCATCTGACTCCTGAGGAGAAGTCTGCCGTTACTGCCCTGTGGGGCAAGGTGAACGTGGATGAAGTTGGTGGTGAGGCCCTGGGCAG```
 
-Contenido de XM_508242.fasta (Pan troglodytes): ATGGTGCACCTGACTCCTGAGGAGAAGTCTGCCGTTACTGCCCTGTGGGGCAAGGTGAACGTGGATGAAGTTGGTGGTGAGGCCCTGGGCAG
+```Contenido de XM_508242.fasta (Pan troglodytes): ATGGTGCACCTGACTCCTGAGGAGAAGTCTGCCGTTACTGCCCTGTGGGGCAAGGTGAACGTGGATGAAGTTGGTGGTGAGGCCCTGGGCAG```
 
-Comparando cadenas... 
-Diferencia en posición 9: A != C 
-Diferencia en posición 50: T != G 
-Hay 2 diferencias```
+```Comparando cadenas... ```
+```Diferencia en posición 9: A != C ```
+```Diferencia en posición 50: T != G ```
+```Hay 2 diferencias```
    
 ---
 
-## Referencias
+##  Referencias
 Secuencias obtenidas de NCBI GenBank:
 - Homo sapiens: NM_000518
 - Pan troglodytes: XM_508242
