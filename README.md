@@ -8,7 +8,9 @@ Este proyecto utiliza dos secuencias en formato FASTA correspondientes al gen **
 
 - `NM_000518.fasta`: Secuencia FASTA del gen **HBB** en *Homo sapiens* (humano).
 - `XM_508242.fasta`: Secuencia FASTA del gen **HBB** en *Pan troglodytes* (chimpancé).
-- `comparar_secuencias.py`: Código Python para comparar las secuencias.
+- `alineamiento_prueba.py`: Código Python para comparar las secuencias. (solo compara cuando tienen igual longitud)
+- `alimeamiento.py`: Código Python para comparar las secuencias.
+
 
 ---
 
@@ -26,7 +28,8 @@ El script realiza los siguientes pasos:
 1. Carga las dos secuencias FASTA y las procesa para ignorar las líneas de encabezado.
 2. Compara las secuencias carácter por carácter.
 3. Imprime el número total de diferencias y su posición exacta en ambas cadenas.
-   ## Ejemplo de salida
+
+    ## Ejemplo de salida
    Si las secuencias tienen diferencias, el programa imprimirá algo como esto:
    Contenido de NM_000518.fasta (Homo sapiens):
    ATGGTGCATCTGACTCCTGAGGAGAAGTCTGCCGTTACTGCCCTGTGGGGCAAGGTGAACGTGGATGAAGTTGGTGGTGAGGCCCTGGGCAG
