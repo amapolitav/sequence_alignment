@@ -6,11 +6,12 @@ Este proyecto utiliza dos secuencias en formato FASTA correspondientes al gen **
 
 ## Archivos incluidos
 
-- `NM_000518.fasta`: Secuencia FASTA del gen **HBB** en *Homo sapiens* (humano).
-- `XM_508242.fasta`: Secuencia FASTA del gen **HBB** en *Pan troglodytes* (chimpancé).
-- `alineamiento_prueba.py`: Código Python para comparar las secuencias. (solo compara cuando tienen igual longitud)
-- `alimeamiento.py`: Código Python para comparar las secuencias.
+- ## Archivos incluidos
 
+- [`NM_000518.fasta`](https://github.com/amapolitav/sequence_alignment/blob/main/NM_000518.fasta): Secuencia FASTA del gen **HBB** en *Homo sapiens* (humano).
+- [`XM_508242.fasta`](https://github.com/amapolitav/sequence_alignment/blob/main/XM_508242.fasta): Secuencia FASTA del gen **HBB** en *Pan troglodytes* (chimpancé).
+- [`alineamiento_prueba.py`](./alineamiento_prueba.py): Código Python para comparar las secuencias (solo compara cuando tienen igual longitud).
+- [`alineamiento.py`](https://github.com/amapolitav/sequence_alignment/blob/main/alimeamiento.py)): Código Python para comparar las secuencias.
 
 ---
 
@@ -31,14 +32,14 @@ El script realiza los siguientes pasos:
 
     ## Ejemplo de salida
    Si las secuencias tienen diferencias, el programa imprimirá algo como esto:
-   Contenido de NM_000518.fasta (Homo sapiens):
-   ATGGTGCATCTGACTCCTGAGGAGAAGTCTGCCGTTACTGCCCTGTGGGGCAAGGTGAACGTGGATGAAGTTGGTGGTGAGGCCCTGGGCAG
-   Contenido de XM_508242.fasta (Pan troglodytes):
-   ATGGTGCACCTGACTCCTGAGGAGAAGTCTGCCGTTACTGCCCTGTGGGGCAAGGTGAACGTGGATGAAGTTGGTGGTGAGGCCCTGGGCAG
-   Comparando cadenas...
-   Diferencia en posición 9: A != C
-   Diferencia en posición 50: T != G
-   Hay 2 diferencias
+Contenido de NM_000518.fasta (Homo sapiens): ATGGTGCATCTGACTCCTGAGGAGAAGTCTGCCGTTACTGCCCTGTGGGGCAAGGTGAACGTGGATGAAGTTGGTGGTGAGGCCCTGGGCAG
+
+Contenido de XM_508242.fasta (Pan troglodytes): ATGGTGCACCTGACTCCTGAGGAGAAGTCTGCCGTTACTGCCCTGTGGGGCAAGGTGAACGTGGATGAAGTTGGTGGTGAGGCCCTGGGCAG
+
+Comparando cadenas... 
+Diferencia en posición 9: A != C 
+Diferencia en posición 50: T != G 
+Hay 2 diferencias
    
 ---
 
